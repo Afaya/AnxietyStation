@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:mega",
+    "configuration": "cpu=atmega2560",
+    "sketch": "anxietyStation\\anxietyStation.ino",
+    "port": "COM3"
+}

@@ -45,10 +45,10 @@ Station designed to predict your anxiety levels depending on environmental and h
 ## Steps followed
 
 - Design the circuit (attached in the repository)
-- [Documentation for coding the MQ135 air quality sensor part] (https: //www.luisllamas.es/arduino-detector-gas-mq/)
+- [Documentation for coding the MQ135 air quality sensor part](https://www.luisllamas.es/arduino-detector-gas-mq/)
 - To use the LCD screen we used the LiquidCrystal library and we tried various approaches, such as having a static line and a moving line, but we ended up leaving it with both static but with the values changing.
-- [Documentation on which we rely for the light sensor part] (https: //www.luisllamas.es/measure-quantity-de-luxes-con-arduino-y-el-luxometro-bh1750/)
-- [Sparkfun library used for the MAX30102 heart rate and oxygenation sensor] (https: //github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
+- [Documentation on which we rely for the light sensor part](https://www.luisllamas.es/medir-cantidad-de-luxes-con-arduino-y-el-luxometro-bh1750/)
+- [Sparkfun library used for the MAX30102 heart rate and oxygenation sensor](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
 
 ## Observations
 While the light and air quality values seem quite accurate, we don't think the oxygenation values were precise. We concluded this due to the fact that they vary and give diverse measurements while measuring the same sample. But from what we have read, all the pulse sensors available work in a similar way.
